@@ -1,7 +1,7 @@
 $(function(){
     $("#btn_subirMedicion").click(function(){
         $.ajax({
-			url: "guardarMedicion",
+			url: "https://backend-energias.herokuapp.com/guardarMedicion",
 			type: "POST",
 			async: true,
             dataType: "json",
