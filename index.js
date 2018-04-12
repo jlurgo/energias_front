@@ -6,7 +6,7 @@ $(function(){
         dataType: "json",
         contentType: "application/json",
         success: function(data){
-            $("#mediciones").text(JSON.stringify(data));            
+            $("#mediciones").text(JSON.stringify(data, null, 2));            
         }
     }); 
 });
